@@ -126,9 +126,9 @@ header .intro-text .skills {
   }
 }
 .navbar {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 .navbar a:focus {
   outline: none;
@@ -142,6 +142,10 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
   border: none;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: gold;
+	background-color: transparent
 }
 section {
   padding: 100px 0;
@@ -316,6 +320,22 @@ footer .footer-below {
 .btn.active {
   outline: none;
 }
+.btn-custom {
+  background-color: hsl(48, 100%, 47%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffd119", endColorstr="#efbf00");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ffd119), to(#efbf00));
+  background-image: -moz-linear-gradient(top, #ffd119, #efbf00);
+  background-image: -ms-linear-gradient(top, #ffd119, #efbf00);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffd119), color-stop(100%, #efbf00));
+  background-image: -webkit-linear-gradient(top, #ffd119, #efbf00);
+  background-image: -o-linear-gradient(top, #ffd119, #efbf00);
+  background-image: linear-gradient(#ffd119, #efbf00);
+  border-color: #efbf00 #efbf00 hsl(48, 100%, 45%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.13);
+  -webkit-font-smoothing: antialiased;
+}
 .scroll-top {
   position: fixed;
   right: 2%;
@@ -393,3 +413,4 @@ footer .footer-below {
   opacity: 0;
   display: none;
 }
+
