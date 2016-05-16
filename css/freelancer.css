@@ -51,7 +51,8 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+	border-color: white;
+	background-color: hsla(359,100%,50%,1.00);
 }
 hr.star-light:after {
   background-color: #18bc9c;
@@ -68,9 +69,10 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
-  text-align: center;
-  background: #18bc9c;
-  color: white;
+	text-align: center;
+	background-color: hsla(0,0%,0%,0.00);
+	color: hsla(0,0%,100%,1.00);
+	background-image: url(../img/CMS_30_128.jpg);
 }
 header .container {
   padding-top: 100px;
@@ -149,8 +151,9 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18bc9c;
-  color: white;
+	background-color: hsla(0,0%,0%,0.00);
+	color: white;
+	background-image: url(/img/CMS_30_128.jpg);
 }
 section.success a,
 section.success a:hover,
